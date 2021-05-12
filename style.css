@@ -1,0 +1,17 @@
+.spin {
+    animation: spin 1s linear 0s 1 forwards;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotateZ(0deg);
+    }
+    100% {
+        transform: rotateZ(360deg);
+    }
+}
+
+
+.buttonsrow{
+    justify-content: space-evenly;
+}
